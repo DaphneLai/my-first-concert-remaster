@@ -1,4 +1,4 @@
-tiles.setCurrentTilemap(tilemap`leve3`)
+tiles.setCurrentTilemap(tilemap`level1`)
 scene.setBackgroundImage(assets.image`imgConcertHall`)
 let mySprite = sprites.create(img`
     ..............................
