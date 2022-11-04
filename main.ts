@@ -18,16 +18,15 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 function initIntro () {
-	
+    story.startCutscene(function () {
+    	
+    })
 }
 // CUT SCENE
 // CONDUCTOR
 function initPlayer () {
     conductor = sprites.create(assets.image`imgConductor00`, SpriteKind.Player)
-    scene.cameraFollowSprite(conductor)
-    controller.moveSprite(conductor)
-    conductor.setPosition(80, 180)
-    conductor.ay = 300
+    conductor.setPosition(78, 95)
 }
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -39,8 +38,13 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 // SET UP LEVEL
 function gameStatus () {
+    scene.setBackgroundImage(assets.image`imgConcertHall`)
     mapLevel = [tilemap`level1`, tilemap`level2`, tilemap`level2`]
     tiles.setCurrentTilemap(mapLevel[currentLevel])
+    scene.cameraFollowSprite(conductor)
+    controller.moveSprite(conductor)
+    conductor.setPosition(80, 180)
+    conductor.ay = 300
 }
 info.onLifeZero(function () {
     game.over(false, effects.confetti)
@@ -67,8 +71,6 @@ let song1: number[] = []
 let currentLevel = 0
 let mapLevel: tiles.TileMapData[] = []
 let conductor: Sprite = null
-gameStatus()
-scene.setBackgroundImage(assets.image`imgConcertHall`)
-initSong()
-info.setLife(3)
+scene.setBackgroundImage(assets.image`imgConcertCurtains`)
 initPlayer()
+story.spriteSayText(conductor, "Welcome to my first concert!")
