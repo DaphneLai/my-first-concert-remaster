@@ -72,6 +72,3 @@ scene.setBackgroundImage(assets.image`imgConcertHall`)
 initSong()
 info.setLife(3)
 initPlayer()
-game.onUpdate(function () {
-	
-})
