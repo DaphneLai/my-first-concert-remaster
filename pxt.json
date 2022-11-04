@@ -23,5 +23,6 @@
     },
     "supportedTargets": [
         "arcade"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
