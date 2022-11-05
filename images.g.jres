@@ -134,6 +134,31 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "btnStart"
     },
+    "image28": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAPAAAAAAAAAA/w8AAAAAAPD//wAAAAAA8P//AAAAAADw////////////DwAAAAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "storyNote1"
+    },
+    "image29": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8PAAAAAAAA/w8AAP//////DwAADw8AAAAAAAAPDwAAAAAAAA8PAAAAAAAADw8AAAAAAAAPDwAAAAAAAA8PAAD/DwAADw8AAP8PAAD//////w8AAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "storyNote0"
+    },
+    "image30": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAD/AAAAAAAAAP8ADw////////AAAPAAAAAAAAAA8AAAAAAAAA/w/wAAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "storyNote2"
+    },
+    "image31": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/w8AAAAAAAD/DwAA//////8PAAAPDw8AAAAAAA8PDwAAAAAADw8PAAAAAAAPDw8AAAAAAA8PDwD/DwAADw8PAP8PAAD//////w8AAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "storyNote3"
+    },
+    "image32": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/w8AAAAAAAD/DwAA//////8PAAAPDw8AAAAAAA8PDwAAAAAADw8PAAAAAAAPDw8AAAAAAA8PDwD/DwAADw8PAP8PAAD//////w8AAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "storyNote4"
+    },
     "D;V$)LHFQ|F2b%C=}-YX": {
         "namespace": "myImages",
         "id": "D;V$)LHFQ|F2b%C=}-YX",
